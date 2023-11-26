@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#coffee {
+  width: 100%;
+  background-image: url(/assets/img/home-1-slider-image-3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#coffee header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  z-index: 1;
+}
+#coffee header .droppp {
+  background-color: black;
+}
+#coffee header .droppp :hover {
+  color: black;
+}
+#coffee header nav {
+  width: 90%;
+  margin: auto;
+}
+#coffee header nav .navbttn {
+  background-color: white;
+}
+#coffee header nav .collapseDiv {
+  justify-content: flex-end;
+}
+#coffee header nav .collapseDiv ul {
+  display: flex;
+  gap: 25px;
+}
+#coffee header nav .collapseDiv ul li a {
+  color: white;
+}
+#coffee .coffeemcontainer {
+  display: flex;
+  padding-bottom: 25px;
+}
+#coffee .coffeemcontainer .row .coffeemtxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  margin-left: 25px;
+}
+#coffee .coffeemcontainer .row .coffeemtxt h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  margin-left: 25px;
+}
+#coffee .coffeemcontainer .row .coffeemtxt span {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+#coffee .coffeemcontainer .row .coffeemtxt .shop {
+  width: 220px;
+  border: none;
+  border: 1px solid white;
+  height: 60px;
+  background-color: transparent;
+  color: white;
+}
+#coffee .coffeemcontainer .row .coffeemtxt .shop:hover {
+  background-color: burlywood;
+  border: none;
+  transition: 1s;
+}
+
+#delicious {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  margin-top: 25px;
+}
+#delicious .deliciouscontainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#delicious .deliciouscontainer img {
+  padding-bottom: 20px;
+}
+#delicious .deliciouscontainer p {
+  padding-bottom: 20px;
+}
+#delicious .deliciouscontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#delicious .deliciouscontainer .row span {
+  color: grey;
+}
+#delicious .deliciouscontainer .row .delicioustxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#delicious .deliciouscontainer .row .delicioustxt span {
+  font-size: 20px;
+  text-align: center;
+}
+#delicious .deliciouscontainer .row .delicioustxt h1 {
+  font-size: 50px;
+  color: #262626;
+  font-weight: 400;
+}
+
+#coffeeherald {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/img/new-new-h1-bacground-img-3.jpg);
+  background-size: cover;
+  margin: auto;
+  height: auto;
+  padding-top: 25px;
+}
+#coffeeherald .coffeeheraldcontainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+#coffeeherald .coffeeheraldcontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#coffeeherald .coffeeheraldcontainer .row h5 {
+  padding-top: 25px;
+}
+#coffeeherald .coffeeheraldcontainer .row span {
+  font-size: 17px;
+}
+#coffeeherald .coffeeheraldcontainer .row p {
+  padding-top: 10px;
+  font-size: 17px;
+  color: grey;
+}
+#coffeeherald .coffeeheraldcontainer .row .heraldtxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#coffeeherald .coffeeheraldcontainer .row .heraldtxt span {
+  font-size: 20px;
+  padding-top: 20px;
+  color: grey;
+}
+#coffeeherald .coffeeheraldcontainer .row .heraldtxt img {
+  width: 200px;
+  height: 30px;
+}
+#coffeeherald .coffeeheraldcontainer .row img {
+  width: 300px;
+  height: 250px;
+  cursor: pointer;
+}
+#coffeeherald .coffeeheraldcontainer .row .read {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+#coffeeherald .coffeeheraldcontainer .row .read:hover {
+  color: #9a826c;
+}
+
+#coffeeestd {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/img/h1-bacground-img-2.jpg);
+  background-size: cover;
+  height: auto;
+  padding: 25px;
+}
+#coffeeestd .estdcontainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+#coffeeestd .estdcontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#testing {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  padding-top: 25px;
+  text-align: center;
+}
+#testing img {
+  width: 100%;
+  height: 400px;
+}
+#testing .testingcontainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+#testing .testingcontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#testing .testingcontainer .row h1 {
+  font-size: 60px;
+  font-weight: 400;
+  color: #BE9C79;
+}
+#testing .testingcontainer .row span {
+  padding-top: 20px;
+  font-size: 17px;
+  color: grey;
+}
+#testing .testingcontainer .row p {
+  font-size: 25px;
+}
+
+#coffeeshop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/img/h1-bacground-img-1.jpg);
+  background-size: cover;
+  margin: auto;
+  height: auto;
+  text-align: center;
+}
+#coffeeshop .coffeeshopcontainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+#coffeeshop .coffeeshopcontainer .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#coffeeshop .coffeeshopcontainer .row p {
+  font-size: 25px;
+  padding-top: 20px;
+}
+#coffeeshop .coffeeshopcontainer .row span {
+  color: grey;
+  font-size: 18px;
+}
+#coffeeshop .coffeeshopcontainer .row .coffeeshoptxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  gap: 15px;
+}
+#coffeeshop .coffeeshopcontainer .row .coffeeshoptxt span {
+  padding-top: 25px;
+  font-size: 20px;
+}
+#coffeeshop .coffeeshopcontainer .row .coffeeshoptxt img {
+  width: 200px;
+  height: 30px;
+}
+#coffeeshop .coffeeshopcontainer .row img {
+  width: 350px;
+  height: 300px;
+}
+
+#sweet {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  height: auto;
+}
+#sweet .sweetcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+#sweet .sweetcontainer .row {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#sweet .sweetcontainer .row .sweettxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  gap: 15px;
+}
+#sweet .sweetcontainer .row .sweettxt span {
+  font-size: 20px;
+  color: gray;
+}
+#sweet .sweetcontainer .row .sweettxt img {
+  width: 200px;
+  height: 30px;
+}
+#sweet .sweetcontainer .row img {
+  width: 300px;
+  height: 290px;
+  margin-bottom: 10px;
+}
+
+#contact {
+  background-image: url(/assets/img/p2-background-img-1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+#contact .contactcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#contact .contactcontainer .row .contactbtn {
+  border: none;
+  background-color: #BE9C79;
+  color: white;
+  width: 170px;
+  height: 50px;
+}
+#contact .contactcontainer .row .contactbtn:hover {
+  background-color: black;
+}
+
+#corretto {
+  width: 100%;
+  background-image: url(/assets/img/footer-top-img-1.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+}
+#corretto .correttocontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#corretto .correttocontainer .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  gap: 40px;
+  font-weight: 300;
+}
+#corretto .correttocontainer .row img {
+  width: 180px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+#corretto .correttocontainer .row p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 17px;
+  max-width: 600px;
+}
+#corretto .correttocontainer .row .correttom {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  display: flex;
+  width: 210px;
+  border: 1px solid white;
+  margin-top: 20px;
+  padding-left: 10px;
+  height: 60px;
+}
+#corretto .correttocontainer .row .correttom div {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+#corretto .correttocontainer .row .correttom input {
+  background-color: transparent;
+  color: white;
+}
+
+#correttofooter {
+  background-color: #121212;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  color: white;
+  text-align: center;
+}
+#correttofooter .correttofootercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#correttofooter .correttofootercontainer i {
+  display: flex;
+  gap: 15px;
+}
+#correttofooter .correttofootercontainer .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#correttofooter .correttofootercontainer .row p {
+  text-align: center;
+  width: 100%;
+}
+#correttofooter .correttofootercontainer .row ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
